@@ -21,3 +21,31 @@ name(parameterValue)
 
 Zuweisung der Funktionsrückgabe
 variable = name(parameterValue)
+
+
+
+Checkout 2
+a) 
+Erstell eine Variable mit einem leeren Array, in der die Beträge der eingekauften Artikel gespeichert werden sollen. Erstell eine Variable, in der die letze Verwendete Speicherposition des Arrays gespeichert wird.
+Ändere deine Additionsfunktion so, dass sie zusätzlich jeden Betrag im Array speichert.
+b)
+Erstell eine Abrechnungsfunktion, die die Bezahlfunktion deines Partners für die Berechung des Rückgelds verwendet und zusätzlich eine Liste aller hinzugefügten Beträge in einer Schleife ausgibt.
+Ändere die Funktion so ab, dass am Ende  alle Variablen zurückgesetzt werden, so dass ein neuer Einkauf beginnen kann.
+
+help guide: 
+
+Function
+function name(parameter){return value}
+
+Funktionsaufruf
+name(parameterValue)
+
+Zuweisung der Funktionsrückgabe
+variable = name(parameterValue)
+
+Auswahl einer Speicherposition im Array
+array[index]
+
+Zuweisung für ene Position im Array
+array[index]=value
+
