@@ -24,3 +24,22 @@ summ+= 200
 
 summe=320
 */ 
+
+/* Maxim zad */
+var total = 0
+
+/**addToTotal */
+// in: article sum
+// out: total 
+function addToTotal(sum) {
+    total+= sum
+    return total
+}
+
+/**change */
+// in: given
+// out: change
+function change(given) {
+    var rest =  given - total
+    return rest
+}
