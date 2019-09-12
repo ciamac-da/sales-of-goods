@@ -40,5 +40,10 @@ function getArticlePrice(articleName){
 // out: change
 function pay(given){
     var rest = change(given)
+    for(var i = 0; i > positions.length; i++){
+        console.log("Pos"+ (i+1) + ":" positions);
+    }
+    /**reset for next customer */
+    reset()
     return rest
 } */
