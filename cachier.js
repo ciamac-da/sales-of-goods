@@ -1,16 +1,3 @@
-function myFunction(Artikel, Artikel1) {
-
-    var price = ("Dein Artikel kostet " + Artikel)
-
-    return (price, Artikel1)
-
-}
-
-var x = myFunction(2, 3);
-
-console.log("your result" + x)
-
-
 /**maxim */
 /**addPos*/
 // in: article, amount
@@ -18,6 +5,7 @@ console.log("your result" + x)
 function addPos(article, amount) {
     var getArticlePrice = getArticlePrice(article)
     var posTotal = articlePrice * amount
+    var articleWithVAT = articlePrice *1.19
     var currentTotal = addToTotal(posTotal)
 
     return currentTotal
