@@ -6,10 +6,17 @@ function addPos(article, amount) {
     var getArticlePrice = getArticlePrice(article)
     var posTotal = articlePrice * amount
     var articleWithVAT = articlePrice *1.19
+    var posTotal = articleWithVAT * amount
     var currentTotal = addToTotal(posTotal)
 
     return currentTotal
 }
+
+/** removePos */
+// in: article;String, amount:Number
+// out: total
+
+
 /**getArticlePrice */
 // in: article:String
 // price: Number

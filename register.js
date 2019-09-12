@@ -11,9 +11,13 @@ function addToTotal(sum) {
     positions[lastPos] = sum
     total+=sum
 
-    total+= sum
     return total
 }
+
+/**subtractFromTotal */
+// in: amount
+// out: total
+
 
 /**change */
 // in: given
