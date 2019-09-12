@@ -11,3 +11,13 @@ Definiere eine Funktion, die  einen Artikelnamen annimmt und den Preis des Artik
 Definiere eine Funktion, die den Artikelnamen und die Menge annimmt, mit Hilfe der ersten Funktion den Preis berechnet und mit der Funktion deines Partners zum Einkauf hinzufügt
 Ruf die Bezahlfunktion deines Partners mit dem gezahlten Betrag  auf um den Rückgeldbetrag zu bekommen.
 
+help guide: 
+
+Function
+function name(parameter){return value}
+
+Funktionsaufruf
+name(parameterValue)
+
+Zuweisung der Funktionsrückgabe
+variable = name(parameterValue)
